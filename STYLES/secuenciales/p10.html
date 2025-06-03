@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROBLEMA 10</title>
+    <link rel="stylesheet" href="../STYLES/problemas.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Problema 10-COSTO DE LLAMADA</h1>
+        <label for="duracion">Ingrese la duracion de la llamada en minutos (Costo por minuto:$7):</label>
+        <input type="number" id="duracion" placeholder="duracion">
+        
+        <button onclick="calcularCosto()">Calcular Costo</button>
+
+        <div id="costo" class="costo"></div>
+        <div style="margin-top: 30px; display: flex; gap: 10px;">
+            <button onclick="window.location.href='./p11.html'">Continuar</button>
+            <button onclick="window.location.href='../index.html'">Volver al Inicio</button>
+        </div>
+    </div>
+
+    <script src="../Scripts/funciones_p10.js"></script>
+</body>
+</html>

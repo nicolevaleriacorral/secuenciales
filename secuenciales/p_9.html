@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROBLEMA 9</title>
+    <link rel="stylesheet" href="../STYLES/problemas.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TIEMPO VIVIDO</h1>
+        <label for="nacimiento">Ingrese su fecha de nacimiento:</label>
+        <input type="date" id="nacimiento" placeholder="nacimiento">
+
+        <label for="actual">Ingrese la fecha actual:</label>
+        <input type="date" id="actual" placeholder="actual">
+        
+        <button onclick="calcularTiempo()">Calcular Tiempo</button>
+
+        <div id="diferenciaDias" class="diferenciaDias"></div>
+        <div id="semanas" class="semanas"></div>
+        <div id="meses" class="meses"></div>
+        <div id="horas" class="horas"></div>
+        <div style="margin-top: 30px; display: flex; gap: 10px;">
+            <button onclick="window.location.href='./p10.html'">Continuar</button>
+            <button onclick="window.location.href='../index.html'">Volver al Inicio</button>
+        </div>
+    </div>
+
+    <script src="../Scripts/funciones_p9.js"></script>
+</body>
+</html>

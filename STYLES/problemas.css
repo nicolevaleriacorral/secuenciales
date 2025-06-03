@@ -1,0 +1,45 @@
+body {
+    background-color: #dadada;
+    color: #1a6ce8;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #1a008f;
+    font-size: 20px;
+}
+
+label, input, button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid #e7e7fa;
+}
+
+button {
+    margin-top: 15px;
+    padding: 8px;
+    background-color: #91c2f7;
+    color: #2d419b;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #908d9e;
+    color: white;
+}
+
+.resultado {
+    margin-top: 20px;
+}
